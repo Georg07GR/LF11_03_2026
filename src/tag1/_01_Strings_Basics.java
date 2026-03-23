@@ -3,10 +3,8 @@ package tag1;
 public class _01_Strings_Basics {
 
       void main(String[] args) {
-        // Strings im Shop-Kontext
         String leererText = ""; // Initialisierung mit leerem Text
 
-        // Kundenname
         String kundenName;      // Deklaration
         kundenName = "Anna";    // Initialisierung
 
@@ -16,8 +14,6 @@ public class _01_Strings_Basics {
         // Alternative Initialisierung
         String kategorie = new String();
         kategorie = "Elektronik";
-
-        /* String-Methoden im Shop-Kontext */
 
         // charAt(i): Liefert ein Zeichen aus dem String, z.B. erster Buchstabe des Produktnamens
         char ersterBuchstabe = produktName.charAt(0); // liefert 'L'
