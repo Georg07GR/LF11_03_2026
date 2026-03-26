@@ -27,7 +27,7 @@ public class _03_Mehrdimensionale_Arrays {
         for (int zeilen = 0; zeilen < array2D.length; zeilen++) {
 
             for (int spalten = 0; spalten < array2D[zeilen].length; spalten++) {
-                IO.println(array2D[zeilen][spalten]);
+                //IO.println(array2D[zeilen][spalten]);
 
             }
             IO.println();
