@@ -141,8 +141,8 @@ void main() {
     //String showReihe = "Reihe: ";
     for (int i = 0; i < 1; i++) {
         for (int[] ints : kino) {
-       // reihe++;
-       // IO.println(showReihe + reihe);
+            // reihe++;
+            // IO.println(showReihe + reihe);
             for (int wert : ints) {
                 IO.print(wert + " ");
             }
@@ -158,10 +158,4 @@ void main() {
         IO.println("Sitze insgesamt: " + gesamtSitze);
     }
 
-
-
-
-
-
-
-
+}
